@@ -50,6 +50,10 @@
     #nav>li:first-child {
         display: inline-block;
     }
+  #nav>li:first-child:hover>a {
+        background-color: #000;
+        color: #fff;
+    }
     #nav .subnav {
         position: initial;
         background-color: #333;
